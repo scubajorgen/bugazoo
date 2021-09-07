@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+
+
+<!--
+    Document   : WorldSettings.xml
+    Created on : 01 November 2009, 20:49
+    Author     : Jorgen
+    Description:
+        Purpose of the document follows.
+-->
+
+
+<root xmlns="http://www.deepocean.net"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.deepocean.net SimSettingsSchema.xsd">
+    <World>
+        <WorldName>Bloody Test World</WorldName>
+        <Description>A World to test stuff</Description>
+        <CellEnergyDissipation>5000.0</CellEnergyDissipation>
+        <CellAccelerationEnergy>1.0</CellAccelerationEnergy>
+        <MinimumCellEnergy>250000</MinimumCellEnergy>
+        <ReproductionCellEnergy>1000000</ReproductionCellEnergy>
+        <InitialCellEnergy>900000</InitialCellEnergy>
+        <MutationChance>0.02</MutationChance>
+        <AllowCellMutation>true</AllowCellMutation>
+        <AllowCellDeletion>true</AllowCellDeletion>
+        <AllowCellCreation>true</AllowCellCreation>
+        <CellMass>2.0</CellMass>
+        <Friction>0.95</Friction>
+        <InitialManureDensity>100</InitialManureDensity>
+        <InitialManureEnergy>1000000</InitialManureEnergy>
+        <SensorRange>20</SensorRange>
+        <ConsumerRange>5</ConsumerRange>
+        <PreyConsumptionSpeed>10000</PreyConsumptionSpeed>
+        <ManureConsumptionSpeed>100000</ManureConsumptionSpeed>
+        <PreySensitivity>50</PreySensitivity>
+        <PredatorSensitivity>100</PredatorSensitivity>
+        <ManureSensitivity>70</ManureSensitivity>
+        <CellSize>12</CellSize>
+        <BackgroundTextureFile>bugazoo/image/multi072.jpg</BackgroundTextureFile>
+        <FrameWidth>1400</FrameWidth>
+        <FrameHeight>900</FrameHeight>
+    </World>
+
+    <World>
+        <WorldName>Demo</WorldName>
+        <Description>A World to show the features</Description>
+        <CellEnergyDissipation>5000.0</CellEnergyDissipation>
+        <CellAccelerationEnergy>1.0</CellAccelerationEnergy>
+        <MinimumCellEnergy>250000</MinimumCellEnergy>
+        <ReproductionCellEnergy>1000000</ReproductionCellEnergy>
+        <InitialCellEnergy>900000</InitialCellEnergy>
+        <MutationChance>0.3</MutationChance>
+        <AllowCellMutation>true</AllowCellMutation>
+        <AllowCellDeletion>true</AllowCellDeletion>
+        <AllowCellCreation>true</AllowCellCreation>
+        <CellMass>1.0</CellMass>
+        <Friction>0.95</Friction>
+        <InitialManureDensity>150</InitialManureDensity>
+        <InitialManureEnergy>1000000</InitialManureEnergy>
+        <SensorRange>20</SensorRange>
+        <ConsumerRange>5</ConsumerRange>
+        <PreyConsumptionSpeed>10000</PreyConsumptionSpeed>
+        <ManureConsumptionSpeed>100000</ManureConsumptionSpeed>
+        <PreySensitivity>50</PreySensitivity>
+        <PredatorSensitivity>80.0</PredatorSensitivity>
+        <ManureSensitivity>70</ManureSensitivity>
+        <CellSize>12</CellSize>
+        <BackgroundTextureFile>bugazoo/image/multi022.jpg</BackgroundTextureFile>
+        <FrameWidth>800</FrameWidth>
+        <FrameHeight>600</FrameHeight>
+    </World>
+
+    <World>
+        <WorldName>Harsh</WorldName>
+        <Description>Doing nothing means dying young...</Description>
+        <CellEnergyDissipation>15000.0</CellEnergyDissipation>
+        <CellAccelerationEnergy>1.0</CellAccelerationEnergy>
+        <MinimumCellEnergy>250000</MinimumCellEnergy>
+        <ReproductionCellEnergy>1000000</ReproductionCellEnergy>
+        <InitialCellEnergy>900000</InitialCellEnergy>
+        <MutationChance>0.05</MutationChance>
+        <AllowCellMutation>true</AllowCellMutation>
+        <AllowCellDeletion>true</AllowCellDeletion>
+        <AllowCellCreation>true</AllowCellCreation>
+        <CellMass>1.0</CellMass>
+        <Friction>0.95</Friction>
+        <InitialManureDensity>100</InitialManureDensity>
+        <InitialManureEnergy>1000000</InitialManureEnergy>
+        <SensorRange>20</SensorRange>
+        <ConsumerRange>5</ConsumerRange>
+        <PreyConsumptionSpeed>10000</PreyConsumptionSpeed>
+        <ManureConsumptionSpeed>100000</ManureConsumptionSpeed>
+        <PreySensitivity>50.0</PreySensitivity>
+        <PredatorSensitivity>80.0</PredatorSensitivity>
+        <ManureSensitivity>70.0</ManureSensitivity>
+        <CellSize>12</CellSize>
+        <BackgroundTextureFile>bugazoo/image/water2.jpg</BackgroundTextureFile>
+        <FrameWidth>800</FrameWidth>
+        <FrameHeight>600</FrameHeight>
+    </World>
+
+    <World>
+        <WorldName>Paradise</WorldName>
+        <Description>Life's easy</Description>
+        <CellEnergyDissipation>500.0</CellEnergyDissipation>
+        <CellAccelerationEnergy>1.0</CellAccelerationEnergy>
+        <MinimumCellEnergy>100000</MinimumCellEnergy>
+        <ReproductionCellEnergy>500000</ReproductionCellEnergy>
+        <InitialCellEnergy>400000</InitialCellEnergy>
+        <MutationChance>0.01</MutationChance>
+        <AllowCellMutation>true</AllowCellMutation>
+        <AllowCellDeletion>true</AllowCellDeletion>
+        <AllowCellCreation>true</AllowCellCreation>
+        <CellMass>1.0</CellMass>
+        <Friction>0.95</Friction>
+        <InitialManureDensity>150</InitialManureDensity>
+        <InitialManureEnergy>1500000</InitialManureEnergy>
+        <SensorRange>20</SensorRange>
+        <ConsumerRange>5</ConsumerRange>
+        <PreyConsumptionSpeed>10000</PreyConsumptionSpeed>
+        <ManureConsumptionSpeed>100000</ManureConsumptionSpeed>
+        <PreySensitivity>25.0</PreySensitivity>
+        <PredatorSensitivity>80.0</PredatorSensitivity>
+        <ManureSensitivity>35.0</ManureSensitivity>
+        <CellSize>8</CellSize>
+        <BackgroundTextureFile>bugazoo/image/lgren019.jpg</BackgroundTextureFile>
+        <FrameWidth>1800</FrameWidth>
+        <FrameHeight>900</FrameHeight>
+    </World>
+
+    <World>
+        <WorldName>Outer Space</WorldName>
+        <Description>Weightless world</Description>
+        <CellEnergyDissipation>100.0</CellEnergyDissipation>
+        <CellAccelerationEnergy>3.0</CellAccelerationEnergy>
+        <MinimumCellEnergy>250000</MinimumCellEnergy>
+        <ReproductionCellEnergy>1000000</ReproductionCellEnergy>
+        <InitialCellEnergy>900000</InitialCellEnergy>
+        <MutationChance>0.01</MutationChance>
+        <AllowCellMutation>true</AllowCellMutation>
+        <AllowCellDeletion>true</AllowCellDeletion>
+        <AllowCellCreation>true</AllowCellCreation>
+        <CellMass>0.1</CellMass>
+        <Friction>0.99</Friction>
+        <InitialManureDensity>100</InitialManureDensity>
+        <InitialManureEnergy>1000000</InitialManureEnergy>
+        <SensorRange>20</SensorRange>
+        <ConsumerRange>5</ConsumerRange>
+        <PreyConsumptionSpeed>40000</PreyConsumptionSpeed>
+        <ManureConsumptionSpeed>100000</ManureConsumptionSpeed>
+        <PreySensitivity>50.0</PreySensitivity>
+        <PredatorSensitivity>80.0</PredatorSensitivity>
+        <ManureSensitivity>70.0</ManureSensitivity>
+        <CellSize>12</CellSize>
+        <BackgroundTextureFile>bugazoo/image/ss086.jpg</BackgroundTextureFile>
+        <FrameWidth>800</FrameWidth>
+        <FrameHeight>600</FrameHeight>
+    </World>
+
+    <World>
+        <WorldName>Fastfood</WorldName>
+        <Description>Getting bites goes fast</Description>
+        <CellEnergyDissipation>5000.0</CellEnergyDissipation>
+        <CellAccelerationEnergy>1.0</CellAccelerationEnergy>
+        <MinimumCellEnergy>250000</MinimumCellEnergy>
+        <ReproductionCellEnergy>1000000</ReproductionCellEnergy>
+        <InitialCellEnergy>900000</InitialCellEnergy>
+        <MutationChance>0.05</MutationChance>
+        <AllowCellMutation>true</AllowCellMutation>
+        <AllowCellDeletion>true</AllowCellDeletion>
+        <AllowCellCreation>true</AllowCellCreation>
+        <CellMass>1.0</CellMass>
+        <Friction>0.95</Friction>
+        <InitialManureDensity>100</InitialManureDensity>
+        <InitialManureEnergy>1000000</InitialManureEnergy>
+        <SensorRange>20</SensorRange>
+        <ConsumerRange>10</ConsumerRange>
+        <PreyConsumptionSpeed>30000</PreyConsumptionSpeed>
+        <ManureConsumptionSpeed>300000</ManureConsumptionSpeed>
+        <PreySensitivity>50.0</PreySensitivity>
+        <PredatorSensitivity>80.0</PredatorSensitivity>
+        <ManureSensitivity>70.0</ManureSensitivity>
+        <CellSize>12</CellSize>
+        <BackgroundTextureFile>bugazoo/image/dblue009.jpg</BackgroundTextureFile>
+        <FrameWidth>800</FrameWidth>
+        <FrameHeight>600</FrameHeight>
+    </World>
+
+
+
+    <World>
+        <WorldName>Don't move</WorldName>
+        <Description>Sesile creatures are doing well</Description>
+        <CellEnergyDissipation>1000.0</CellEnergyDissipation>
+        <CellAccelerationEnergy>5.0</CellAccelerationEnergy>
+        <MinimumCellEnergy>150000</MinimumCellEnergy>
+        <ReproductionCellEnergy>500000</ReproductionCellEnergy>
+        <InitialCellEnergy>400000</InitialCellEnergy>
+        <MutationChance>0.05</MutationChance>
+        <AllowCellMutation>true</AllowCellMutation>
+        <AllowCellDeletion>true</AllowCellDeletion>
+        <AllowCellCreation>true</AllowCellCreation>
+        <CellMass>1.0</CellMass>
+        <Friction>0.90</Friction>
+        <InitialManureDensity>100</InitialManureDensity>
+        <InitialManureEnergy>1000000</InitialManureEnergy>
+        <SensorRange>20</SensorRange>
+        <ConsumerRange>10</ConsumerRange>
+        <PreyConsumptionSpeed>10000</PreyConsumptionSpeed>
+        <ManureConsumptionSpeed>100000</ManureConsumptionSpeed>
+        <PreySensitivity>25.0</PreySensitivity>
+        <PredatorSensitivity>80.0</PredatorSensitivity>
+        <ManureSensitivity>35.0</ManureSensitivity>
+        <CellSize>12</CellSize>
+        <BackgroundTextureFile>bugazoo/image/lblue068.jpg</BackgroundTextureFile>
+        <FrameWidth>800</FrameWidth>
+        <FrameHeight>600</FrameHeight>
+    </World>
+
+    <World>
+        <WorldName>Huntersworld</WorldName>
+        <Description>Poor, poor vegetarians...</Description>
+        <CellEnergyDissipation>1000.0</CellEnergyDissipation>
+        <CellAccelerationEnergy>2.0</CellAccelerationEnergy>
+        <MinimumCellEnergy>250000</MinimumCellEnergy>
+        <ReproductionCellEnergy>1000000</ReproductionCellEnergy>
+        <InitialCellEnergy>900000</InitialCellEnergy>
+        <MutationChance>0.05</MutationChance>
+        <AllowCellMutation>true</AllowCellMutation>
+        <AllowCellDeletion>true</AllowCellDeletion>
+        <AllowCellCreation>true</AllowCellCreation>
+        <CellMass>1.0</CellMass>
+        <Friction>0.98</Friction>
+        <InitialManureDensity>100</InitialManureDensity>
+        <InitialManureEnergy>1000000</InitialManureEnergy>
+        <SensorRange>30</SensorRange>
+        <ConsumerRange>4</ConsumerRange>
+        <PreyConsumptionSpeed>50000</PreyConsumptionSpeed>
+        <ManureConsumptionSpeed>100000</ManureConsumptionSpeed>
+        <PreySensitivity>100.0</PreySensitivity>
+        <PredatorSensitivity>50.0</PredatorSensitivity>
+        <ManureSensitivity>70.0</ManureSensitivity>
+        <CellSize>12</CellSize>
+        <BackgroundTextureFile>bugazoo/image/lgren059.jpg</BackgroundTextureFile>
+        <FrameWidth>800</FrameWidth>
+        <FrameHeight>600</FrameHeight>
+    </World>
+
+    <World>
+        <WorldName>Radioactive</WorldName>
+        <Description>Radioactivity stimulates mutants</Description>
+        <CellEnergyDissipation>5000.0</CellEnergyDissipation>
+        <CellAccelerationEnergy>1.0</CellAccelerationEnergy>
+        <MinimumCellEnergy>250000</MinimumCellEnergy>
+        <ReproductionCellEnergy>1000000</ReproductionCellEnergy>
+        <InitialCellEnergy>900000</InitialCellEnergy>
+        <MutationChance>0.7</MutationChance>
+        <AllowCellMutation>true</AllowCellMutation>
+        <AllowCellDeletion>true</AllowCellDeletion>
+        <AllowCellCreation>true</AllowCellCreation>
+        <CellMass>0.5</CellMass>
+        <Friction>0.95</Friction>
+        <InitialManureDensity>100</InitialManureDensity>
+        <InitialManureEnergy>1000000</InitialManureEnergy>
+        <SensorRange>20</SensorRange>
+        <ConsumerRange>5</ConsumerRange>
+        <PreyConsumptionSpeed>10000</PreyConsumptionSpeed>
+        <ManureConsumptionSpeed>100000</ManureConsumptionSpeed>
+        <PreySensitivity>50.0</PreySensitivity>
+        <PredatorSensitivity>80.0</PredatorSensitivity>
+        <ManureSensitivity>70.0</ManureSensitivity>
+        <CellSize>12</CellSize>
+        <BackgroundTextureFile>bugazoo/image/lblue054.gif</BackgroundTextureFile>
+        <FrameWidth>800</FrameWidth>
+        <FrameHeight>600</FrameHeight>
+    </World>
+
+
+</root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<!--
+    Document   : SimPopulationSettings.xml
+    Created on : 02 November 2009, 20:00
+    Author     : Jorgen
+    Description:
+        Purpose of the document follows.
+-->
+
+<root xmlns="http://www.deepocean.net"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.deepocean.net SimPopulationsSchema.xsd">
+    <population>
+        <creature>
+            <name>Bulldozer</name>
+            <type>Bulldozer</type>
+            <number>2</number>
+        </creature>
+        <creature>
+            <name>BlindLobster</name>
+            <type>BlindLobster</type>
+            <number>2</number>
+        </creature>
+        <creature>
+            <name>Amoebe</name>
+            <type>Amoebe</type>
+            <number>2</number>
+        </creature>
+        <creature>
+            <name>ManureDuck</name>
+            <type>ManureDuck</type>
+            <number>2</number>
+        </creature>
+        <creature>
+            <name>CanibalRabbit</name>
+            <type>CanibalRabbit</type>
+            <number>2</number>
+        </creature>
+    </population>
+
+</root>

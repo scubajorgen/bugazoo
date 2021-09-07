@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.deepocean.net"
+    xmlns:tns="http://www.deepocean.net"
+    elementFormDefault="qualified">
+    <xsd:element name="root">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="World" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="WorldName">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="Description">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="CellEnergyDissipation">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="CellAccelerationEnergy">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="MinimumCellEnergy">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="ReproductionCellEnergy">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="InitialCellEnergy">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="MutationChance">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="AllowCellMutation">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="AllowCellDeletion">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="AllowCellCreation">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="CellMass">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="Friction">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="InitialManureDensity">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="InitialManureEnergy">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="SensorRange">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="ConsumerRange">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="PreyConsumptionSpeed">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="ManureConsumptionSpeed">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="PreySensitivity">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="PredatorSensitivity">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="ManureSensitivity">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="CellSize">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="BackgroundTextureFile">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="FrameWidth">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="FrameHeight">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.deepocean.net"
+    xmlns:tns="http://www.deepocean.net"
+    elementFormDefault="qualified">
+    <xsd:element name="root">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="creature" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="type">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string"/>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="cells">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="cell" maxOccurs="unbounded">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="type">
+                                                        <xsd:simpleType>
+                                                            <xsd:restriction base="xsd:string"/>
+                                                        </xsd:simpleType>
+                                                    </xsd:element>
+                                                    <xsd:element name="xpos">
+                                                        <xsd:simpleType>
+                                                            <xsd:restriction base="xsd:string"/>
+                                                        </xsd:simpleType>
+                                                    </xsd:element>
+                                                    <xsd:element name="ypos">
+                                                        <xsd:simpleType>
+                                                            <xsd:restriction base="xsd:string"/>
+                                                        </xsd:simpleType>
+                                                    </xsd:element>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
