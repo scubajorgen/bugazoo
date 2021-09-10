@@ -94,8 +94,6 @@ class ChainItem implements Serializable
     {
         ChainItem pointer;
         pointer=this;
-
-        pointer=this;
         while (pointer.getNextChainItem()!=null)
             pointer=pointer.getNextChainItem();
 
