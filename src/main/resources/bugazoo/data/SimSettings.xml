@@ -38,7 +38,7 @@
         <ManureSensitivity>70</ManureSensitivity>
         <CellSize>12</CellSize>
         <BackgroundTextureFile>bugazoo/image/multi072.jpg</BackgroundTextureFile>
-        <FrameWidth>1400</FrameWidth>
+        <FrameWidth>1600</FrameWidth>
         <FrameHeight>900</FrameHeight>
     </World>
 
@@ -67,8 +67,8 @@
         <ManureSensitivity>70</ManureSensitivity>
         <CellSize>12</CellSize>
         <BackgroundTextureFile>bugazoo/image/multi022.jpg</BackgroundTextureFile>
-        <FrameWidth>800</FrameWidth>
-        <FrameHeight>600</FrameHeight>
+        <FrameWidth>1600</FrameWidth>
+        <FrameHeight>900</FrameHeight>
     </World>
 
     <World>
@@ -96,8 +96,8 @@
         <ManureSensitivity>70.0</ManureSensitivity>
         <CellSize>12</CellSize>
         <BackgroundTextureFile>bugazoo/image/water2.jpg</BackgroundTextureFile>
-        <FrameWidth>800</FrameWidth>
-        <FrameHeight>600</FrameHeight>
+        <FrameWidth>1600</FrameWidth>
+        <FrameHeight>900</FrameHeight>
     </World>
 
     <World>
@@ -125,7 +125,7 @@
         <ManureSensitivity>35.0</ManureSensitivity>
         <CellSize>8</CellSize>
         <BackgroundTextureFile>bugazoo/image/lgren019.jpg</BackgroundTextureFile>
-        <FrameWidth>1800</FrameWidth>
+        <FrameWidth>1600</FrameWidth>
         <FrameHeight>900</FrameHeight>
     </World>
 
@@ -154,8 +154,8 @@
         <ManureSensitivity>70.0</ManureSensitivity>
         <CellSize>12</CellSize>
         <BackgroundTextureFile>bugazoo/image/ss086.jpg</BackgroundTextureFile>
-        <FrameWidth>800</FrameWidth>
-        <FrameHeight>600</FrameHeight>
+        <FrameWidth>1600</FrameWidth>
+        <FrameHeight>900</FrameHeight>
     </World>
 
     <World>
@@ -183,8 +183,8 @@
         <ManureSensitivity>70.0</ManureSensitivity>
         <CellSize>12</CellSize>
         <BackgroundTextureFile>bugazoo/image/dblue009.jpg</BackgroundTextureFile>
-        <FrameWidth>800</FrameWidth>
-        <FrameHeight>600</FrameHeight>
+        <FrameWidth>1600</FrameWidth>
+        <FrameHeight>900</FrameHeight>
     </World>
 
 
@@ -214,8 +214,8 @@
         <ManureSensitivity>35.0</ManureSensitivity>
         <CellSize>12</CellSize>
         <BackgroundTextureFile>bugazoo/image/lblue068.jpg</BackgroundTextureFile>
-        <FrameWidth>800</FrameWidth>
-        <FrameHeight>600</FrameHeight>
+        <FrameWidth>1600</FrameWidth>
+        <FrameHeight>900</FrameHeight>
     </World>
 
     <World>
@@ -243,8 +243,8 @@
         <ManureSensitivity>70.0</ManureSensitivity>
         <CellSize>12</CellSize>
         <BackgroundTextureFile>bugazoo/image/lgren059.jpg</BackgroundTextureFile>
-        <FrameWidth>800</FrameWidth>
-        <FrameHeight>600</FrameHeight>
+        <FrameWidth>1600</FrameWidth>
+        <FrameHeight>900</FrameHeight>
     </World>
 
     <World>
@@ -272,8 +272,8 @@
         <ManureSensitivity>70.0</ManureSensitivity>
         <CellSize>12</CellSize>
         <BackgroundTextureFile>bugazoo/image/lblue054.gif</BackgroundTextureFile>
-        <FrameWidth>800</FrameWidth>
-        <FrameHeight>600</FrameHeight>
+        <FrameWidth>1600</FrameWidth>
+        <FrameHeight>900</FrameHeight>
     </World>
 
 

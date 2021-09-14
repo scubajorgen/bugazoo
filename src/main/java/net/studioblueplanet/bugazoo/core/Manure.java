@@ -23,7 +23,6 @@ public class Manure extends EnergyCarrier
      *  @param          fYPos
      *  @param          liEnergy
      */
-
     public Manure (float fXPos, float fYPos, long liEnergy)
     {
         this.fXPos=fXPos;
@@ -66,10 +65,8 @@ public class Manure extends EnergyCarrier
         int iSize;
 
         iSize=(int)Math.sqrt(getEnergy())/ENERGY_SCALEING;
-
         g.setColor(MANURE_COLOR);
         g.fillOval((int)fXPos-iSize/2, (int)fYPos-iSize/2,
                     iSize, iSize);
-
     }
 }
